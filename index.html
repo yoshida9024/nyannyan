@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルなウェブサイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #440000; /* ヘッダーの背景色 */
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem;
+            color: #cc0000; /* mainの文字色 */
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background: #440000; /* footerの背景色 */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>私たちの素晴らしいウェブサイト</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">私たちについて</a></li>
+                <li><a href="#services">サービス</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>私たちについて</h2>
+            <p>私たちは、シンプルで使いやすいウェブサイトを提供することを目指しています。</p>
+        </section>
+
+        <section id="services">
+            <h2>サービス</h2>
+            <p>私たちのサービスは以下の通りです：</p>
+            <ul>
+                <li>ウェブデザイン</li>
+                <li>ウェブ開発</li>
+                <li>SEO対策</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 シンプルなウェブサイト. All rights reserved.</p>
+    </footer>
+</body>
+</html>
